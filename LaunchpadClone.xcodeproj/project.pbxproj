@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1AFABD1F2E401E9100E20A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFABD082E401E9100E20A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFABD0F2E401E9100E20A10;
+			remoteInfo = LaunchpadClone;
+		};
+		1AFABD292E401E9100E20A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFABD082E401E9100E20A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFABD0F2E401E9100E20A10;
+			remoteInfo = LaunchpadClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFABD102E401E9100E20A10 /* LaunchpadClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchpadClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFABD1E2E401E9100E20A10 /* LaunchpadCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchpadCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFABD282E401E9100E20A10 /* LaunchpadCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchpadCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AFABD122E401E9100E20A10 /* LaunchpadClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaunchpadClone;
+			sourceTree = "<group>";
+		};
+		1AFABD212E401E9100E20A10 /* LaunchpadCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaunchpadCloneTests;
+			sourceTree = "<group>";
+		};
+		1AFABD2B2E401E9100E20A10 /* LaunchpadCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaunchpadCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFABD0D2E401E9100E20A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD1B2E401E9100E20A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD252E401E9100E20A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFABD072E401E9100E20A10 = {
+			isa = PBXGroup;
+			children = (
+				1AFABD122E401E9100E20A10 /* LaunchpadClone */,
+				1AFABD212E401E9100E20A10 /* LaunchpadCloneTests */,
+				1AFABD2B2E401E9100E20A10 /* LaunchpadCloneUITests */,
+				1AFABD112E401E9100E20A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFABD112E401E9100E20A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFABD102E401E9100E20A10 /* LaunchpadClone.app */,
+				1AFABD1E2E401E9100E20A10 /* LaunchpadCloneTests.xctest */,
+				1AFABD282E401E9100E20A10 /* LaunchpadCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFABD0F2E401E9100E20A10 /* LaunchpadClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFABD322E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadClone" */;
+			buildPhases = (
+				1AFABD0C2E401E9100E20A10 /* Sources */,
+				1AFABD0D2E401E9100E20A10 /* Frameworks */,
+				1AFABD0E2E401E9100E20A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AFABD122E401E9100E20A10 /* LaunchpadClone */,
+			);
+			name = LaunchpadClone;
+			packageProductDependencies = (
+			);
+			productName = LaunchpadClone;
+			productReference = 1AFABD102E401E9100E20A10 /* LaunchpadClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFABD1D2E401E9100E20A10 /* LaunchpadCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFABD352E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadCloneTests" */;
+			buildPhases = (
+				1AFABD1A2E401E9100E20A10 /* Sources */,
+				1AFABD1B2E401E9100E20A10 /* Frameworks */,
+				1AFABD1C2E401E9100E20A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFABD202E401E9100E20A10 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AFABD212E401E9100E20A10 /* LaunchpadCloneTests */,
+			);
+			name = LaunchpadCloneTests;
+			packageProductDependencies = (
+			);
+			productName = LaunchpadCloneTests;
+			productReference = 1AFABD1E2E401E9100E20A10 /* LaunchpadCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFABD272E401E9100E20A10 /* LaunchpadCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFABD382E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadCloneUITests" */;
+			buildPhases = (
+				1AFABD242E401E9100E20A10 /* Sources */,
+				1AFABD252E401E9100E20A10 /* Frameworks */,
+				1AFABD262E401E9100E20A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFABD2A2E401E9100E20A10 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AFABD2B2E401E9100E20A10 /* LaunchpadCloneUITests */,
+			);
+			name = LaunchpadCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = LaunchpadCloneUITests;
+			productReference = 1AFABD282E401E9100E20A10 /* LaunchpadCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFABD082E401E9100E20A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1AFABD0F2E401E9100E20A10 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1AFABD1D2E401E9100E20A10 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1AFABD0F2E401E9100E20A10;
+					};
+					1AFABD272E401E9100E20A10 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1AFABD0F2E401E9100E20A10;
+					};
+				};
+			};
+			buildConfigurationList = 1AFABD0B2E401E9100E20A10 /* Build configuration list for PBXProject "LaunchpadClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFABD072E401E9100E20A10;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AFABD112E401E9100E20A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFABD0F2E401E9100E20A10 /* LaunchpadClone */,
+				1AFABD1D2E401E9100E20A10 /* LaunchpadCloneTests */,
+				1AFABD272E401E9100E20A10 /* LaunchpadCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFABD0E2E401E9100E20A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD1C2E401E9100E20A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD262E401E9100E20A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFABD0C2E401E9100E20A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD1A2E401E9100E20A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFABD242E401E9100E20A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFABD202E401E9100E20A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFABD0F2E401E9100E20A10 /* LaunchpadClone */;
+			targetProxy = 1AFABD1F2E401E9100E20A10 /* PBXContainerItemProxy */;
+		};
+		1AFABD2A2E401E9100E20A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFABD0F2E401E9100E20A10 /* LaunchpadClone */;
+			targetProxy = 1AFABD292E401E9100E20A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AFABD302E401E9100E20A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AFABD312E401E9100E20A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1AFABD332E401E9100E20A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaunchpadClone/LaunchpadClone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1AFABD342E401E9100E20A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaunchpadClone/LaunchpadClone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1AFABD362E401E9100E20A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchpadClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaunchpadClone";
+			};
+			name = Debug;
+		};
+		1AFABD372E401E9100E20A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchpadClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaunchpadClone";
+			};
+			name = Release;
+		};
+		1AFABD392E401E9100E20A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LaunchpadClone;
+			};
+			name = Debug;
+		};
+		1AFABD3A2E401E9100E20A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JTK.LaunchpadCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LaunchpadClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFABD0B2E401E9100E20A10 /* Build configuration list for PBXProject "LaunchpadClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFABD302E401E9100E20A10 /* Debug */,
+				1AFABD312E401E9100E20A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFABD322E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFABD332E401E9100E20A10 /* Debug */,
+				1AFABD342E401E9100E20A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFABD352E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFABD362E401E9100E20A10 /* Debug */,
+				1AFABD372E401E9100E20A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFABD382E401E9100E20A10 /* Build configuration list for PBXNativeTarget "LaunchpadCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFABD392E401E9100E20A10 /* Debug */,
+				1AFABD3A2E401E9100E20A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AFABD082E401E9100E20A10 /* Project object */;
+}
